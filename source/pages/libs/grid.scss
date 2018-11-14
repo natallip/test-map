@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Azoft Sans';
+    font-size: 18px;
+    background: #fff;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-weight: normal;
+}
+
+.wrapper {
+    height: 100%;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 23px;
+  border: 2px solid #a122ea;
+  background-color: #ffffff;
+  padding: 0px 46px;
+  color: #a122ea;
+  font-size: 18px;
+  font-weight: 700;
+  height: 46px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.btn--fill {
+  color: #fff;
+  border: none;
+  background-image: linear-gradient(to right, #a122ea 0%, #ff2a54 100%);
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  @include desktop {
+    width: 1170px;
+  }
+  @include laptop {
+    width: 700px;
+  }
+  @include tablets {
+    width: 280px;
+  }
+  @include  phones {
+    width: 95%;
+  }
+}

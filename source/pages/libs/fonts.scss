@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Azoft Sans';
+  src: url('../fonts/AzoftSans/AzoftSans-Bold.eot');
+  src: local('Azoft Sans Bold'), local('AzoftSans-Bold'),
+  url('../fonts/AzoftSans/AzoftSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AzoftSans/AzoftSans-Bold.woff') format('woff'),
+  url('../fonts/AzoftSans/AzoftSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Azoft Sans';
+  src: url('../fonts/AzoftSans/AzoftSans.eot');
+  src: local('Azoft Sans'), local('AzoftSans'),
+  url('../fonts/AzoftSans/AzoftSans.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AzoftSans/AzoftSans.woff') format('woff'),
+  url('../fonts/AzoftSans/AzoftSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Tahoma';
+  src: url('../fonts/Tahoma/Tahoma.eot');
+  src: local('Tahoma'),
+  url('../fonts/Tahoma/Tahoma.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Tahoma/Tahoma.woff') format('woff'),
+  url('../fonts/Tahoma/Tahoma.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tahoma';
+  src: url('../fonts/Tahoma/Tahoma-Bold.eot');
+  src: local('Tahoma Bold'), local('Tahoma-Bold'),
+  url('../fonts/Tahoma/Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Tahoma/Tahoma-Bold.woff') format('woff'),
+  url('../fonts/Tahoma/Tahoma-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

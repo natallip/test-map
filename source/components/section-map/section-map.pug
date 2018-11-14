@@ -1,0 +1,27 @@
+mixin section-map
+
+  section.section-map
+    .container
+      h1.section-map__title The standard chunk of Lorem Ipsum
+      .section-map__wrap
+        .section-map__main
+          .section-map__img
+            include ../map/map.html
+
+          .section-map__bar
+            ul.bar#bar
+              - var data = [100, 200, 300, 400, 500, 600, 700, 800]
+              each item, i in data
+                li.item
+                  .item__line(class="color" + (+i+1))
+                  .item__point(class="color" + (+i+1))
+                  .item__count= item
+        .section-map__block
+          .info
+            .info__wrap
+              .info__img
+                img(src="./images/people.png")
+              .info__count#counter 800
+              .info__text mln
+            .info__btn
+              button.btn.btn--fill more info

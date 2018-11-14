@@ -1,0 +1,22 @@
+extends libs/default
+
+include ../components/section-map/section-map
+include ../components/section-info/section-info
+
+block variables
+    - var title = 'title'
+    - var description = 'description'
+    - var keywords = 'keywords'
+
+block links
+    link(rel="stylesheet" href="css/main.css")
+
+block scriptsToHead
+
+block content
+    div.wrapper
+        +section-map
+        +section-info
+
+block scriptsToBody
+    script(src='js/bundle.js')

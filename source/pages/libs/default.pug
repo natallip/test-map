@@ -1,0 +1,24 @@
+include mixin
+include variables
+
+block variables
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="description", content=description)
+        meta(name="keywords", content=keywords)
+        meta(http-equiv="x-ua-compatible", content="ie=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, shrink-to-fit=no")
+
+        link(rel="icon" href="./favicon.png")
+        link(href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900" rel="stylesheet")
+
+        block links
+        block scriptsToHead
+
+        title #{title}
+    body
+        block content
+        block scriptsToBody

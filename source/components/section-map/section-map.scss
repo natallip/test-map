@@ -1,0 +1,152 @@
+.section-map {
+  padding: 52px;
+  height: 720px;
+  background-color: #16252a;
+  color: #fff;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    color: #d3dee7;
+    font-family: "Azoft Sans";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+    width: 80%;
+    max-width: 680px;
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+  &__main {
+    flex-shrink: 0;
+  }
+  &__img {
+    width: 758px;
+    height: 371px;
+    margin-bottom: 62px;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__block {
+    margin-top: 20px;
+  }
+  &__bar {
+    margin-left: 22px;
+  }
+}
+.bar {
+  display: flex;
+  position: relative;
+}
+.item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  &:first-child {
+    .item__line {
+      display: none;
+      width: 0;
+    }
+  }
+  &__line {
+    width: 86px;
+    height: 2px;
+    background: #555;
+    transition: all .5s linear;
+  }
+  &__point {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #555;
+    transition: all .5s linear;
+  }
+  &__count {
+    position: absolute;
+    top: 22px;
+    right: -11px;
+    color: #ffffff;
+    font-family: "Azoft Sans";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+.color1 {
+  background-color: $color1;
+}
+.color2 {
+  background-color: $color2;
+}
+.color3 {
+  background-color: $color3;
+}
+.color4 {
+  background-color: $color4;
+}
+.color5 {
+  background-color: $color5;
+}
+.color6 {
+  background-color: $color6;
+}
+.color7 {
+  background-color: $color7;
+}
+.color8 {
+  background-color: $color8;
+}
+.colorGrey {
+  background: #555;
+}
+.info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #0e191d;
+  overflow: hidden;
+  &__wrap {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 37px 13px;
+    background: url("../images/line.png") repeat-x 0% 100%;
+  }
+  &__img {
+    width: 74px;
+    height: 54px;
+    margin-bottom: 20px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__count {
+    color: #ffffff;
+    font-family: "Azoft Sans";
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 59px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  &__text {
+    color: #d3dee7;
+    font-family: "Azoft Sans";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+  &__btn {
+    padding: 24px 37px;
+  }
+}
+
+
+
